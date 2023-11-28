@@ -50,7 +50,7 @@ MIT © [RenierJordan](https://github.com/RenierJordan)
 ```
 ## Customisation
 
-| Props  | Desciption | Type |
+| Props  | Description | Type |
 | ------------- | ------------- | ------------- |
 | setIsOpen  | /!\Required/!\ this will allow the component to change the state to "false" to close the modal | useState Hook (boolean)  |
 | text  | /!\Required/!\ this will be the text displayed in the modal | string  |
