@@ -39,7 +39,7 @@ MIT © [RenierJordan](https://github.com/RenierJordan)
 
 ## Customisation
 
-| Props   | Description                                                                                    | Type                    |
-| ------- | ---------------------------------------------------------------------------------------------- | ----------------------- |
-| isOpen  | /!\Required/!\ this will allow the component to change the state to "false" to close the modal | useState Hook (boolean) |
-| onClose | /!\Required/!\ this will be called to close the modal                                          | function                |
+| Props   | Description                                                                                    | Type     |
+| ------- | ---------------------------------------------------------------------------------------------- | -------- |
+| isOpen  | /!\Required/!\ this will allow the component to change the state to "false" to close the modal | boolean  |
+| onClose | /!\Required/!\ this will be called to close the modal                                          | function |
