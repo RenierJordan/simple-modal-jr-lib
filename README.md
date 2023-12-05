@@ -36,3 +36,19 @@ export default function Example() {
 
 MIT © [RenierJordan](https://github.com/RenierJordan)
 ```
+## Customisation
+
+| Props  | Description | Type |
+| ------------- | ------------- | ------------- |
+| setIsOpen  | /!\Required/!\ this will allow the component to change the state to "false" to close the modal | useState Hook (boolean)  |
+| text  | /!\Required/!\ this will be the text displayed in the modal | string  |
+| modalBgColor  | this will define the background color of the modal | string  |
+| modalBorder  | this will define the border of the modal  | string  |
+| modalBorderRadius  | this will define the border radius of the modal | string  |
+| crossCloseBg  | this will define the background color of the close button | string  |
+| crossCloseColor  | this will define the color of the close button | string  |
+| crossCloseBorder  | this will define the border of the close button | string  |
+| fontFamily  | this will define the font of the text displayed in the modal | string  |
+| fontSize  | this will define the size of the text displayed in the modal | string  |
+| fontColor  | this will define the color of the text displayed in the modal | string  |
+| textAlign  | this will define how inline contents of a block are horizontally aligned if the contents do not completely fill the line box | string  |
